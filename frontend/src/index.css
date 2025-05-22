@@ -10,6 +10,15 @@ body {
 body{
   margin: 0;
   padding: 0;
+  background-color: #e5eaf5;
+}
+.border{
+  position: relative;
+  height:auto;
+  padding-bottom: 70px;
+  margin: 10px 350px 0px 350px ;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 .container{
@@ -18,9 +27,14 @@ body{
   padding: 0 1rem;
 }
 
-h1{
-  margin-top: 1rem;
+.head{
+  position: relative;
+  left: 12%;
+  width: 300px;
+  margin: 4rem;
   text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 .top{
   margin-top: 1rem;
@@ -31,12 +45,13 @@ h1{
 .inputbox{
   border: none;
   outline: none;
+  background-color: transparent;
   width: 400px;
   padding: 0.5rem;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid blue;
 }
 .add{
-  background-color:black;
+  background-color:blue;
   color:white;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
@@ -60,5 +75,11 @@ h1{
 }
 .icon{
   cursor: pointer;
-  font-size: 20px;
+  font-size: 30px;
+}
+#iconhover:hover{
+  color: red;
+}
+#iconupdate:hover{
+  color: green;
 }

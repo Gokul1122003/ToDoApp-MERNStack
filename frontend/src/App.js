@@ -21,13 +21,14 @@ function App() {
 
   return (
     <div className="App">
+      <div className="border">
       <div className="container">
-        <h1>TODO List</h1>
+        <h1 className="head">TODO LIST</h1>
 
         <div className="top">
            <input className="inputbox" 
            type="text" 
-           placeholder="Add ToDos..."
+           placeholder="Add ToDo..."
            value={text}
            onChange={(e) => setText(e.target.value)}
            />
@@ -51,7 +52,9 @@ function App() {
           
         </div>
       </div>
+      </div>
     </div>
+
   );
 }
 
